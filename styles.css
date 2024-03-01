@@ -1,0 +1,244 @@
+/* Resetting default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8; /* Light grey-blue background */
+  color: #333; /* Dark grey text for readability */
+}
+
+/* Full-page intro section */
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #5585b5; /* Pleasant blue */
+  color: #fff; /* White text */
+  padding: 0 20px; /* Horizontal padding */
+  text-align: center; /* Centering text */
+}
+
+/* Main content */
+.content {
+  padding: 20px;
+  background-color: #f0f4f8; /* Matching the body background */
+}
+
+.section {
+  margin-bottom: 40px; /* Spacing between sections */
+}
+
+.section h2 {
+  color: #5585b5; /* Blue for headers */
+  margin-bottom: 20px;
+}
+.about-section {
+  background-color: #e6f0fa; /* Light blue background */
+  padding: 40px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between; /* Aligns text and action button */
+  align-items: center;
+}
+
+.about-text h2 {
+  color: #5585b5;
+  margin-bottom: 16px;
+}
+
+.about-text p {
+  color: #5585b5;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #5585b5; /* Button color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #406a90; /* Darker shade on hover */
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .about-actions {
+    margin-top: 20px;
+  }
+}
+
+.job-section {
+  background-color: #e6f0fa; /* Light blue background */
+  padding: 40px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds depth */
+  text-decoration: none; /* Removes underline */
+
+
+  
+}
+.job-section a:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
+
+.job-container {
+  display: flex;
+  justify-content: space-between; /* Aligns text and action button */
+  align-items: center;
+}
+.job-title-container {
+  display: flex;
+  justify-content: space-between; /* Align the title to the left and the date to the right */
+  align-items: center; /* Align them vertically */
+  margin-bottom: 10px; /* Space below the title and date line */
+}
+.job-title {
+  font-size: 18px; /* Or your preferred font size */
+  margin: 0; /* Reset margins */
+  color: #0069d2;
+  /* If you want the title to be bold, uncomment the next line */
+  /* font-weight: bold; */
+}
+
+.job-date {
+  font-size: 16px; /* Or your preferred font size */
+  margin: 0; /* Reset margins */
+  color: #0069d2;
+  white-space: nowrap; /* Prevent the date from wrapping */
+}
+
+.job-text h2 {
+  margin-bottom: 16px;
+}
+
+.job-text p {
+  color: #5585b5;
+  line-height: 1.6;
+}
+.project-section {
+  background-color: #e6f0fa;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  flex-wrap: wrap; /* Wrap items to the next line on small screens */
+}
+
+.project-description {
+  flex-basis: 40%; /* Takes up 40% of the container's width */
+  margin-right: 5%; /* Spacing between text and image */
+  color: #5585b5;
+}
+
+
+.github-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #5585b5;
+  text-decoration: none; /* Removes underline from links */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s ease-in-out;
+}
+
+.github-link:hover,
+.github-link:focus {
+  color: #000000; /* Change to your preferred hover color */
+}
+
+h3 {
+  color: #5585b5;
+  transition: color 0.3s ease-in-out;
+}
+
+h3:hover {
+  color: #ffffff;
+}
+
+.project-image {
+  flex-basis: 50%; /* Takes up 50% of the container's width */
+  text-align: center; /* Centers the image */
+  
+}
+
+.project-image img {
+  max-width: 100%; /* Ensures the image is never larger than its container */
+  height: auto; /* Maintains the aspect ratio */
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-image img:hover {
+  transform: scale(1.05); /* Adjust scale as needed */
+}
+
+
+.links-container {
+  display: flex;
+  justify-content: space-between; /* Aligns children to the start and end of the container */
+  align-items: center; /* Centers children vertically */
+  padding: 20px; /* Adds some padding around the container */
+}
+
+.social-links a, .nav-links a {
+  text-decoration: none;
+  margin: 0 10px; /* Spaces out the links */
+  color: #5585b5; /* Your link color */
+  background-color: #e6f0fa; /* Light blue background */
+}
+
+
+.nav-links ul {
+  display: flex;
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+.nav-links li {
+  margin: 0 10px; /* Spaces out the nav items */
+}
+
+.social-links a:hover, .nav-links a:hover {
+  text-decoration: underline; /* Adds an underline on hover for interactivity */
+  background-color: #d1e2f3; /* Slightly darker blue on hover */
+}
+
+.fab { /* Assuming you're using Font Awesome icons */
+  margin-right: 5px; /* Adds some space between the icon and text */
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content {
+      padding: 10px;
+  }
+
+  .nav-links a {
+      margin: 10px 5px; /* Smaller margins */
+  }
+
+}
