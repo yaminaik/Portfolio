@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Insights into the Fishing Industry",
       description:
         "Pioneered a comprehensive big data analysis on overfishing, integrating multiple datasets with Apache Spark and Python, optimized data workflows, and presented findings that informed sustainable fishing practices.",
-      video: "public/assets/Fishery_PPT.pdf", // Path to the PDF
+      video: "/assets/Fishery_PPT.pdf", // Path to the PDF
       link: "https://github.com/Big-Data-CS-GY6513/extract",
     
     },
