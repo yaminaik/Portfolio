@@ -7,19 +7,19 @@ const Recommendations = () => {
       name: "Mukesh Goswami",
       title: "Associate professor",
       description: "Mukesh Goswami has been an integral mentor throughout my academic journey, providing valuable guidance and witnessing my progression as a developer through multiple projects.",
-      pdf: "src/assets/r1.pdf", // Path to the PDF
+      pdf: "/assets/r1.pdf", // Path to the PDF
     },
     {
       name: "Sunil Vithlani",
       title: "Assistant Professor",
       description: "Sunil Vithlani supervised my contributions to the Database Project, offering insights and mentorship that honed my technical and problem-solving skills.",
-      pdf: "src/assets/r2.pdf", // Path to the PDF
+      pdf: "/assets/r2.pdf", // Path to the PDF
     },
     {
         name: "Dr. Chintan Naik",
         title: "Founder",
         description: "While interning at Pixeta App Lab under Dr. Chintan Naik, I contributed to the cosMOS ERP project, gaining hands-on experience in building scalable solutions for cooperative societies.",
-        pdf: "src/assets/r3.pdf", // Path to the PDF
+        pdf: "/assets/r3.pdf", // Path to the PDF
       },
   ];
 

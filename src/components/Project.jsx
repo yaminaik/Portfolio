@@ -8,26 +8,26 @@ const Projects = () => {
       title: "Insights into the Fishing Industry",
       description:
         "Pioneered a comprehensive big data analysis on overfishing, integrating multiple datasets with Apache Spark and Python, optimized data workflows, and presented findings that informed sustainable fishing practices.",
-      video: "src/assets/Fishery_PPT.pdf", // Path to the PDF
+      video: "public/assets/Fishery_PPT.pdf", // Path to the PDF
       link: "https://github.com/Big-Data-CS-GY6513/extract",
     
     },
     {
         title: "JustBreathe-SIDS Detection",
         description: "Engineered JustBreathe, a cutting-edge infant safety device with temperature sensors, providing crucial, non-invasive monitoring to combat Sudden Infant Death Syndrome (SIDS) and reassure parents.",
-        video:"https://www.youtube.com/watch?v=mMob0jK3LWs&feature=youtu.be",
+     
         link: "https://github.com/yaminaik/JustBreathe"
     },
     {
         title: "Object Detection",
         description: "Satellite Sentinel: Enhancing Object Detection in Satellite Imagery with Advanced Deep Learning Techniques",
-        video: "src/assets/od.pdf",
+        video: "/assets/od.pdf",
         link: "https://github.com/yaminaik/ObjectDetection"
     },
     {
         title: "A modified ResNet Architecture with Optimal Test Accuracy",
         description: "Revolutionized ResNet18 architecture by custom modifications, achieving optimal test accuracy with a streamlined model under 5 million parameters, demonstrating significant advancements in deep learning efficiency.",
-        video:"src/assets/MiniProject.pdf",
+        video:"/assets/MiniProject.pdf",
         link: "https://github.com/yaminaik/OptimizedResNet18"
     },
     {
